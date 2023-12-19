@@ -8,5 +8,6 @@ services:
     expose:
       - "80"
     env_file: .env
+    network_mode: host
     ports:
       - "80:80"
